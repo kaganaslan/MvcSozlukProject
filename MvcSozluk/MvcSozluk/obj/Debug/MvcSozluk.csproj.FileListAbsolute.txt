@@ -77,3 +77,16 @@ C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\MvcSozluk\obj\Debug\MvcSo
 C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\MvcSozluk\obj\Debug\MvcSozluk.csproj.CopyComplete
 C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\MvcSozluk\obj\Debug\MvcSozluk.dll
 C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\MvcSozluk\obj\Debug\MvcSozluk.pdb
+C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\MvcSozluk\bin\BusinessLayer.dll
+C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\MvcSozluk\bin\DataAccessLayer.dll
+C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\MvcSozluk\bin\EntityLayer.dll
+C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\MvcSozluk\bin\EntityFramework.dll
+C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\MvcSozluk\bin\BusinessLayer.pdb
+C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\MvcSozluk\bin\BusinessLayer.dll.config
+C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\MvcSozluk\bin\DataAccessLayer.pdb
+C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\MvcSozluk\bin\DataAccessLayer.dll.config
+C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\MvcSozluk\bin\EntityLayer.pdb
+C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\MvcSozluk\bin\EntityLayer.dll.config
+C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\MvcSozluk\bin\EntityFramework.xml
+C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\MvcSozluk\bin\EntityFramework.SqlServer.dll
+C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\MvcSozluk\bin\EntityFramework.SqlServer.xml

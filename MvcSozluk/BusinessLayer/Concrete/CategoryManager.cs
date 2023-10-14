@@ -14,27 +14,28 @@ namespace BusinessLayer.Concrete
     {
 
         ICategoryDal _categorydal;
-        //GenericRepository<Category> repo= new GenericRepository<Category> ();
 
-        //public List<Category> GetAllBL()
-        //{
-        //    return repo.List();
-        //}
-
-        //public void CategoryAddBL(Category p)
-        //{
-        //    if (p.CategoryName == "" || p.CategoryName.Length <= 3 || p.CategoryDescription == "" || p.CategoryName.Length >= 51)
-        //    {
-        //        //error message
-        //    }
-        //    else
-        //    {
-        //        repo.Insert(p);
-        //    }
-        //}
-        public List<Category> GetCategoryList()
+        public CategoryManager(ICategoryDal categorydal)
         {
-            throw new NotImplementedException();
+            _categorydal = categorydal;
         }
+
+        public void CategoryAdd(Category category)
+        {
+            _categorydal.Insert(category);
+        }
+
+        public Category GetByID(int id)
+        {
+            return _categorydal.Get(x => x.CategoryID == id);
+
+        }
+
+        public List<Category> GetList()
+        {
+            return _categorydal.List();
+        }
+
+
     }
 }

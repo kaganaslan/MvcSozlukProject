@@ -12,6 +12,8 @@ namespace DataAccessLayer.Abstract
         //Burada bir sürü tablo olabileceği için bunu parametreli hale getirerek genel bi repository oluşturdum ve bunları parametreli şekilde çağırdım.
         List<T> List();
         void Insert(T p);
+
+        T Get(Expression<Func<T, bool>> filter);
         void Delete(T p);
         void update(T p);
 

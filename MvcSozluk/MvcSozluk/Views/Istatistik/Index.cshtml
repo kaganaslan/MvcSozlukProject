@@ -1,0 +1,23 @@
+﻿@using EntityLayer.Concrete
+@model List<Category>
+@{
+    ViewBag.Title = "Istatistikler";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>İstatistikler</h2>
+
+<div class="statistics">
+    <p>
+        <strong>Toplam Kategori Sayısı:</strong> @ViewBag.CategoryCount
+    </p>
+    <p>
+        <strong>"Yazılım" Kategorisine Ait Başlık Sayısı:</strong> @ViewBag.Heading
+    </p>
+    <p>
+        <strong>True ve False Kategoriler Arasındaki Fark:</strong> @ViewBag.Status
+    </p>
+    <p>
+        <strong>En çok başlık:</strong> @ViewBag.HeadingMax
+    </p>
+</div>

@@ -13,3 +13,6 @@ C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\DataAccessLayer\obj\Debug
 C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
 C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.writerupdated.resources
+C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writertitle_added.resources

@@ -16,3 +16,8 @@ C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\DataAccessLayer\obj\Debug
 C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.writerupdated.resources
 C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
 C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writertitle_added.resources
+C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations._mig_imagechange.resources
+C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations._migstatusadded.resources
+C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations._mig_contentstatusadded.resources
+C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations._mig_headingstatusadded.resources
+C:\Users\chapk\OneDrive\Masaüstü\MvcSozluk\MvcSozluk\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations._mig_addmessage.resources

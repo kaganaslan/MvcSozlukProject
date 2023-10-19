@@ -14,6 +14,7 @@ namespace MvcSozluk.Controllers
         // GET: Heading
         HeadingManager hm = new HeadingManager(new EfHeadingDal());
         CategoryManager cm = new CategoryManager(new EfCategoryDal());
+        WriterManager wm = new WriterManager(new EfWriterDal());
         public ActionResult Index()
         {
             var headingValues = hm.GetList();
@@ -22,13 +23,22 @@ namespace MvcSozluk.Controllers
         [HttpGet]
         public ActionResult AddHeading()
         {
+            //dropdown
             List<SelectListItem> valuecategory = (from x in cm.GetList()
                                                   select new SelectListItem
                                                   {
                                                       Text = x.CategoryName,
                                                       Value = x.CategoryID.ToString()
                                                   }).ToList();
+
+            List<SelectListItem> valuewriter = (from x in wm.GetList()
+                                                  select new SelectListItem
+                                                  {
+                                                      Text = x.WriterName + " "+ x.WriteSurName,
+                                                      Value = x.WriterID.ToString()
+                                                  }).ToList();
             ViewBag.vlc=valuecategory;
+            ViewBag.vlw=valuewriter;
             return View();
         }
         [HttpPost]
@@ -38,5 +48,34 @@ namespace MvcSozluk.Controllers
             hm.HeadingAdd(p);
             return RedirectToAction("Index");   
         }
+
+        [HttpGet]
+        public ActionResult EditHeading(int id)
+        {
+            List<SelectListItem> valuecategory = (from x in cm.GetList()
+                                                  select new SelectListItem
+                                                  {
+                                                      Text = x.CategoryName,
+                                                      Value = x.CategoryID.ToString()
+                                                  }).ToList();
+            ViewBag.vlc = valuecategory;
+            var HeadingValue= hm.GetByID(id);
+            return View(HeadingValue);
+        }
+        [HttpPost]
+        public ActionResult EditHeading(Heading p)
+        {
+            hm.HeadingUpdate(p);
+            return RedirectToAction("Index");
+        }
+
+        public ActionResult DeleteHeading(int id)
+        {
+            var HeadingValue=hm.GetByID(id);
+            HeadingValue.HeadingStatus = false;
+            hm.HeadingDelete(HeadingValue);
+            return RedirectToAction("Index");
+        }
+
     }
 }

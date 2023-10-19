@@ -39,6 +39,7 @@ namespace DataAccessLayer.Concrete.Repositories
             c.SaveChanges();
         }
 
+        //parametreli listeleme
         public List<T> List(Expression<Func<T, bool>> filter)
         {
             return _object.Where(filter).ToList();

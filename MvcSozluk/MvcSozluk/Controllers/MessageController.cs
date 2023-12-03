@@ -16,6 +16,7 @@ namespace MvcSozluk.Controllers
         // GET: Message
         MessageManager mm = new MessageManager(new EfMessageDal());
         MessageValidator messageValidator = new MessageValidator();
+        [Authorize]
         public ActionResult Inbox()
         {
             var messageList = mm.GetListInbox();

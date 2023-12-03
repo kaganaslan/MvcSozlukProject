@@ -16,6 +16,7 @@ namespace MvcSozluk.Controllers
         // GET: Category
         //business layer'dan cagırdık.
         CategoryManager cm = new CategoryManager(new EfCategoryDal());
+        
         public ActionResult Index()
         {
             return View();

@@ -15,7 +15,7 @@ namespace MvcSozluk.Controllers
     {
         CategoryManager cm = new CategoryManager(new EfCategoryDal());
 
-
+        [Authorize(Roles="B")]
         public ActionResult Index()
         {
             var categoryvalues = cm.GetList();
